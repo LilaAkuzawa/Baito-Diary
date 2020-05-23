@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5137562478FE0E001E22B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5137552478FE0E001E22B5 /* AppDelegate.swift */; };
+		3D5137582478FE0E001E22B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5137572478FE0E001E22B5 /* SceneDelegate.swift */; };
+		3D51375A2478FE0E001E22B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5137592478FE0E001E22B5 /* ViewController.swift */; };
+		3D51375D2478FE0E001E22B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51375B2478FE0E001E22B5 /* Main.storyboard */; };
+		3D51375F2478FE12001E22B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D51375E2478FE12001E22B5 /* Assets.xcassets */; };
+		3D5137622478FE12001E22B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5137602478FE12001E22B5 /* LaunchScreen.storyboard */; };
+		3D51376D2478FE12001E22B5 /* Albeit_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51376C2478FE12001E22B5 /* Albeit_DiaryTests.swift */; };
+		3D5137782478FE12001E22B5 /* Albeit_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5137772478FE12001E22B5 /* Albeit_DiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D5137692478FE12001E22B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51374A2478FE0E001E22B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5137512478FE0E001E22B5;
+			remoteInfo = "Albeit Diary";
+		};
+		3D5137742478FE12001E22B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D51374A2478FE0E001E22B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5137512478FE0E001E22B5;
+			remoteInfo = "Albeit Diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D5137522478FE0E001E22B5 /* Albeit Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Albeit Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5137552478FE0E001E22B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D5137572478FE0E001E22B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D5137592478FE0E001E22B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D51375C2478FE0E001E22B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D51375E2478FE12001E22B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D5137612478FE12001E22B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D5137632478FE12001E22B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5137682478FE12001E22B5 /* Albeit DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Albeit DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D51376C2478FE12001E22B5 /* Albeit_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albeit_DiaryTests.swift; sourceTree = "<group>"; };
+		3D51376E2478FE12001E22B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5137732478FE12001E22B5 /* Albeit DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Albeit DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5137772478FE12001E22B5 /* Albeit_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albeit_DiaryUITests.swift; sourceTree = "<group>"; };
+		3D5137792478FE12001E22B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D51374F2478FE0E001E22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5137652478FE12001E22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5137702478FE12001E22B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5137492478FE0E001E22B5 = {
+			isa = PBXGroup;
+			children = (
+				3D5137542478FE0E001E22B5 /* Albeit Diary */,
+				3D51376B2478FE12001E22B5 /* Albeit DiaryTests */,
+				3D5137762478FE12001E22B5 /* Albeit DiaryUITests */,
+				3D5137532478FE0E001E22B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5137532478FE0E001E22B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5137522478FE0E001E22B5 /* Albeit Diary.app */,
+				3D5137682478FE12001E22B5 /* Albeit DiaryTests.xctest */,
+				3D5137732478FE12001E22B5 /* Albeit DiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D5137542478FE0E001E22B5 /* Albeit Diary */ = {
+			isa = PBXGroup;
+			children = (
+				3D5137552478FE0E001E22B5 /* AppDelegate.swift */,
+				3D5137572478FE0E001E22B5 /* SceneDelegate.swift */,
+				3D5137592478FE0E001E22B5 /* ViewController.swift */,
+				3D51375B2478FE0E001E22B5 /* Main.storyboard */,
+				3D51375E2478FE12001E22B5 /* Assets.xcassets */,
+				3D5137602478FE12001E22B5 /* LaunchScreen.storyboard */,
+				3D5137632478FE12001E22B5 /* Info.plist */,
+			);
+			path = "Albeit Diary";
+			sourceTree = "<group>";
+		};
+		3D51376B2478FE12001E22B5 /* Albeit DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D51376C2478FE12001E22B5 /* Albeit_DiaryTests.swift */,
+				3D51376E2478FE12001E22B5 /* Info.plist */,
+			);
+			path = "Albeit DiaryTests";
+			sourceTree = "<group>";
+		};
+		3D5137762478FE12001E22B5 /* Albeit DiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D5137772478FE12001E22B5 /* Albeit_DiaryUITests.swift */,
+				3D5137792478FE12001E22B5 /* Info.plist */,
+			);
+			path = "Albeit DiaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D5137512478FE0E001E22B5 /* Albeit Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D51377C2478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit Diary" */;
+			buildPhases = (
+				3D51374E2478FE0E001E22B5 /* Sources */,
+				3D51374F2478FE0E001E22B5 /* Frameworks */,
+				3D5137502478FE0E001E22B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Albeit Diary";
+			productName = "Albeit Diary";
+			productReference = 3D5137522478FE0E001E22B5 /* Albeit Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D5137672478FE12001E22B5 /* Albeit DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D51377F2478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit DiaryTests" */;
+			buildPhases = (
+				3D5137642478FE12001E22B5 /* Sources */,
+				3D5137652478FE12001E22B5 /* Frameworks */,
+				3D5137662478FE12001E22B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D51376A2478FE12001E22B5 /* PBXTargetDependency */,
+			);
+			name = "Albeit DiaryTests";
+			productName = "Albeit DiaryTests";
+			productReference = 3D5137682478FE12001E22B5 /* Albeit DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D5137722478FE12001E22B5 /* Albeit DiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5137822478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit DiaryUITests" */;
+			buildPhases = (
+				3D51376F2478FE12001E22B5 /* Sources */,
+				3D5137702478FE12001E22B5 /* Frameworks */,
+				3D5137712478FE12001E22B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D5137752478FE12001E22B5 /* PBXTargetDependency */,
+			);
+			name = "Albeit DiaryUITests";
+			productName = "Albeit DiaryUITests";
+			productReference = 3D5137732478FE12001E22B5 /* Albeit DiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D51374A2478FE0E001E22B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Chai Akuzawa";
+				TargetAttributes = {
+					3D5137512478FE0E001E22B5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3D5137672478FE12001E22B5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3D5137512478FE0E001E22B5;
+					};
+					3D5137722478FE12001E22B5 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3D5137512478FE0E001E22B5;
+					};
+				};
+			};
+			buildConfigurationList = 3D51374D2478FE0E001E22B5 /* Build configuration list for PBXProject "Albeit Diary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D5137492478FE0E001E22B5;
+			productRefGroup = 3D5137532478FE0E001E22B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5137512478FE0E001E22B5 /* Albeit Diary */,
+				3D5137672478FE12001E22B5 /* Albeit DiaryTests */,
+				3D5137722478FE12001E22B5 /* Albeit DiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D5137502478FE0E001E22B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5137622478FE12001E22B5 /* LaunchScreen.storyboard in Resources */,
+				3D51375F2478FE12001E22B5 /* Assets.xcassets in Resources */,
+				3D51375D2478FE0E001E22B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5137662478FE12001E22B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5137712478FE12001E22B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D51374E2478FE0E001E22B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D51375A2478FE0E001E22B5 /* ViewController.swift in Sources */,
+				3D5137562478FE0E001E22B5 /* AppDelegate.swift in Sources */,
+				3D5137582478FE0E001E22B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D5137642478FE12001E22B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D51376D2478FE12001E22B5 /* Albeit_DiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D51376F2478FE12001E22B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5137782478FE12001E22B5 /* Albeit_DiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D51376A2478FE12001E22B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5137512478FE0E001E22B5 /* Albeit Diary */;
+			targetProxy = 3D5137692478FE12001E22B5 /* PBXContainerItemProxy */;
+		};
+		3D5137752478FE12001E22B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D5137512478FE0E001E22B5 /* Albeit Diary */;
+			targetProxy = 3D5137742478FE12001E22B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D51375B2478FE0E001E22B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D51375C2478FE0E001E22B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D5137602478FE12001E22B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D5137612478FE12001E22B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D51377A2478FE12001E22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D51377B2478FE12001E22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D51377D2478FE12001E22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D51377E2478FE12001E22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D5137802478FE12001E22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit DiaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albeit Diary.app/Albeit Diary";
+			};
+			name = Debug;
+		};
+		3D5137812478FE12001E22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit DiaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Albeit Diary.app/Albeit Diary";
+			};
+			name = Release;
+		};
+		3D5137832478FE12001E22B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Albeit Diary";
+			};
+			name = Debug;
+		};
+		3D5137842478FE12001E22B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Albeit DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.chai.akuzawa.Albeit-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Albeit Diary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D51374D2478FE0E001E22B5 /* Build configuration list for PBXProject "Albeit Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D51377A2478FE12001E22B5 /* Debug */,
+				3D51377B2478FE12001E22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D51377C2478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D51377D2478FE12001E22B5 /* Debug */,
+				3D51377E2478FE12001E22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D51377F2478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5137802478FE12001E22B5 /* Debug */,
+				3D5137812478FE12001E22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5137822478FE12001E22B5 /* Build configuration list for PBXNativeTarget "Albeit DiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5137832478FE12001E22B5 /* Debug */,
+				3D5137842478FE12001E22B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D51374A2478FE0E001E22B5 /* Project object */;
+}
