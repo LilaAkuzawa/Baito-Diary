@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,14 @@
 		3D5137622478FE12001E22B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5137602478FE12001E22B5 /* LaunchScreen.storyboard */; };
 		3D51376D2478FE12001E22B5 /* Albeit_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51376C2478FE12001E22B5 /* Albeit_DiaryTests.swift */; };
 		3D5137782478FE12001E22B5 /* Albeit_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5137772478FE12001E22B5 /* Albeit_DiaryUITests.swift */; };
+		3D513787247900D6001E22B5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D513786247900D6001E22B5 /* Address.swift */; };
+		3D5B0EBA248B0C6F003944D2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5B0EB9248B0C6F003944D2 /* MenuViewController.swift */; };
+		3D6B9853248527D1009899C4 /* BaitoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B9852248527D1009899C4 /* BaitoListTableViewController.swift */; };
+		3D6B9855248527E8009899C4 /* GoalListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B9854248527E8009899C4 /* GoalListTableViewController.swift */; };
+		3D6B985924852812009899C4 /* GoalInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B985824852812009899C4 /* GoalInputViewController.swift */; };
+		3D6B985B2485284F009899C4 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B985A2485284F009899C4 /* InputViewController.swift */; };
+		3D6B985D24852862009899C4 /* BaitoInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B985C24852862009899C4 /* BaitoInputViewController.swift */; };
+		3D9A286724936E3700623971 /* BaitoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A286624936E3600623971 /* BaitoListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		3D5137732478FE12001E22B5 /* Albeit DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Albeit DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5137772478FE12001E22B5 /* Albeit_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albeit_DiaryUITests.swift; sourceTree = "<group>"; };
 		3D5137792478FE12001E22B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D513786247900D6001E22B5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3D5B0EB9248B0C6F003944D2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3D6B9852248527D1009899C4 /* BaitoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaitoListTableViewController.swift; sourceTree = "<group>"; };
+		3D6B9854248527E8009899C4 /* GoalListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalListTableViewController.swift; sourceTree = "<group>"; };
+		3D6B985824852812009899C4 /* GoalInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalInputViewController.swift; sourceTree = "<group>"; };
+		3D6B985A2485284F009899C4 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		3D6B985C24852862009899C4 /* BaitoInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaitoInputViewController.swift; sourceTree = "<group>"; };
+		3D9A286624936E3600623971 /* BaitoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaitoListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +119,17 @@
 				3D5137572478FE0E001E22B5 /* SceneDelegate.swift */,
 				3D5137592478FE0E001E22B5 /* ViewController.swift */,
 				3D51375B2478FE0E001E22B5 /* Main.storyboard */,
+				3D5B0EB9248B0C6F003944D2 /* MenuViewController.swift */,
 				3D51375E2478FE12001E22B5 /* Assets.xcassets */,
 				3D5137602478FE12001E22B5 /* LaunchScreen.storyboard */,
 				3D5137632478FE12001E22B5 /* Info.plist */,
+				3D513786247900D6001E22B5 /* Address.swift */,
+				3D6B9852248527D1009899C4 /* BaitoListTableViewController.swift */,
+				3D9A286624936E3600623971 /* BaitoListTableViewCell.swift */,
+				3D6B985C24852862009899C4 /* BaitoInputViewController.swift */,
+				3D6B9854248527E8009899C4 /* GoalListTableViewController.swift */,
+				3D6B985824852812009899C4 /* GoalInputViewController.swift */,
+				3D6B985A2485284F009899C4 /* InputViewController.swift */,
 			);
 			path = "Albeit Diary";
 			sourceTree = "<group>";
@@ -216,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 3D5137492478FE0E001E22B5;
+			packageReferences = (
+				3D5137852479003A001E22B5 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 3D5137532478FE0E001E22B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6B985D24852862009899C4 /* BaitoInputViewController.swift in Sources */,
+				3D5B0EBA248B0C6F003944D2 /* MenuViewController.swift in Sources */,
 				3D51375A2478FE0E001E22B5 /* ViewController.swift in Sources */,
+				3D6B9855248527E8009899C4 /* GoalListTableViewController.swift in Sources */,
 				3D5137562478FE0E001E22B5 /* AppDelegate.swift in Sources */,
+				3D6B985B2485284F009899C4 /* InputViewController.swift in Sources */,
+				3D9A286724936E3700623971 /* BaitoListTableViewCell.swift in Sources */,
+				3D513787247900D6001E22B5 /* Address.swift in Sources */,
+				3D6B9853248527D1009899C4 /* BaitoListTableViewController.swift in Sources */,
 				3D5137582478FE0E001E22B5 /* SceneDelegate.swift in Sources */,
+				3D6B985924852812009899C4 /* GoalInputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7BHR355TR;
 				INFOPLIST_FILE = "Albeit Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7BHR355TR;
 				INFOPLIST_FILE = "Albeit Diary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -584,6 +621,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D5137852479003A001E22B5 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3D51374A2478FE0E001E22B5 /* Project object */;
 }
