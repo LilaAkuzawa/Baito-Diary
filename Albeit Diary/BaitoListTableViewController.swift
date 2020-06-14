@@ -9,8 +9,8 @@
 import UIKit
 
 class BaitoListTableViewController: UITableViewController {
-
-var baitoArray: [Dictionary<String,String>] = []
+    
+   var baitoArray: [Dictionary<String,Int>] = []
    
    let saveData = UserDefaults.standard
 
@@ -20,10 +20,16 @@ var baitoArray: [Dictionary<String,String>] = []
    }
        // Do any additional setup after loading the view.
    override func viewWillAppear(_ animated: Bool) {
-       super.viewWillAppear(true)
-       if saveData.array(forKey: "BAITO") != nil {
-           baitoArray = saveData.array(forKey: "BAITO") as! [Dictionary<String,String>]
-           }
+       super.viewWillAppear(animated)
+    
+    if let _ = UserDefaults.standard.object(forKey: "BAITO") as? String{
+    
+        baitoLabel.text = (UserDefaults.standard.object(forKey: "BAITO") as! String)
+    }
+    if let _ = UserDefaults.standard.object(forKey: "MONEY") as? Int{
+    
+        moneyLabel.text = (UserDefaults.standard.object(forKey: "MONEY") as! Int)
+    }
    self.tableView.reloadData()
    }
    

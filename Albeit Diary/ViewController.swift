@@ -9,12 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-   
-    @IBOutlet weak var label1: UILabel!
     
     @IBOutlet weak var number: UILabel!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +38,7 @@ class ViewController: UIViewController {
         alert.addTextField(
             configurationHandler: {(textField: UITextField!)in
                 alertTextField = textField
-                textField.text = self.label1.text
+                textField.text = self.number.text
                 
         })
         alert.addAction(
@@ -55,7 +51,7 @@ class ViewController: UIViewController {
             title: "OK",
             style: UIAlertAction.Style.default){ _ in
                 if let text = alertTextField?.text {
-                    self.label1.text = text
+                    self.number.text = text
         }
     }
 )

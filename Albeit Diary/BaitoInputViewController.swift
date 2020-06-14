@@ -8,29 +8,24 @@
 
 import UIKit
 
-class BaitoInputViewController: UIViewController {
+class BaitoInputViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var baitoTextField: UITextField!
     @IBOutlet var moneyTextField: UITextField!
-    
-    var baitoArray: [Dictionary<String, String>] = []
-    
-    let saveData = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if saveData.array(forKey: "BAITO") != nil {
-            baitoArray = saveData.array(forKey: "BAITO") as! [Dictionary<String,String>]
-        }
     }
+     let userDefaults = UserDefaults.standard
     
-    
-       @IBAction func saveBaito(){
+       @IBAction func saveData(){
+        
+       
             
-            let baitoDictionary = ["baito": baitoTextField.text!, "money": moneyTextField.text!]
-            
-            baitoArray.append(baitoDictionary)
-            saveData.set(baitoArray, forKey: "BAITO")
+        userDefaults.set(baitoTextField.text, forKey:"BAITO")
+        userDefaults.set(moneyTextField.text, forKey: "MONEY")
+        
+        userDefaults.synchronize()
             
             let alert = UIAlertController(
                 title: "保存完了",
