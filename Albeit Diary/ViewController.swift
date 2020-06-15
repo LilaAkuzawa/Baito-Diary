@@ -48,6 +48,9 @@ class ViewController: UIViewController {
     @IBAction func back (sender: UIStoryboardSegue){
         
     }
+    @IBAction func clear (_ sender: UIButton){
+        
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -136,6 +139,33 @@ class ViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }
         
+    }
+    @IBAction func clearButtonTapped(_sender: Any){
+        
+        let alert = UIAlertController(
+            title: "クリア",
+            message: "貯金をやりなおしますか？",
+            preferredStyle: .alert
+        )
+        alert.addAction(
+            UIAlertAction(
+                title: "Cancel",
+                style: UIAlertAction.Style.cancel,
+                handler: nil
+        ))
+        alert.addAction(UIAlertAction(
+            title: "OK",
+            style: UIAlertAction.Style.default){ _ in
+                
+                
+               let userDefaults = UserDefaults.standard
+                          
+                          userDefaults.set(0, forKey:"SAVING")
+                          
+                self.label1.text = "0"
+            }
+        )
+         self.present(alert, animated: true, completion: nil)
     }
     
 }

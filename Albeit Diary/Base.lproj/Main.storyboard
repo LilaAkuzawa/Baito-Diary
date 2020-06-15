@@ -50,9 +50,19 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyK-6W-tUf">
+                                <rect key="frame" x="169.5" y="602" width="36" height="30"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.30978280208989917" green="0.73875713832487311" blue="0.65518314860754656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearButtonTappedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UCJ-Pu-Xb1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89433796963477064" green="1" blue="0.92525448269989374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MyK-6W-tUf" secondAttribute="bottom" constant="35" id="0B3-l1-dDj"/>
                             <constraint firstItem="gIk-Hs-xqT" firstAttribute="top" secondItem="Oza-CS-J9r" secondAttribute="bottom" constant="47" id="5bn-eQ-ZM3"/>
                             <constraint firstItem="Oza-CS-J9r" firstAttribute="top" secondItem="qcB-RD-4IL" secondAttribute="bottom" constant="248" id="Ik0-e7-DN4"/>
                             <constraint firstItem="Oza-CS-J9r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZmQ-tu-U1S"/>
@@ -63,6 +73,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qcB-RD-4IL" secondAttribute="trailing" constant="80" id="ecr-KZ-mek"/>
                             <constraint firstItem="srL-5h-wBa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="hIW-7k-mOK"/>
                             <constraint firstItem="qcB-RD-4IL" firstAttribute="leading" secondItem="srL-5h-wBa" secondAttribute="trailing" constant="8" id="kcm-v8-m8r"/>
+                            <constraint firstItem="MyK-6W-tUf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lqZ-Qs-wzC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gIk-Hs-xqT" secondAttribute="trailing" constant="120" id="mMt-TU-uFG"/>
                             <constraint firstItem="qcB-RD-4IL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="mNW-hs-QIG"/>
                             <constraint firstItem="qcB-RD-4IL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="n8b-8u-rOz"/>
