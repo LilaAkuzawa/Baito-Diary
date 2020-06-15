@@ -10,12 +10,13 @@ import UIKit
 
 class BaitoListTableViewController: UITableViewController {
     
-   var baitoArray: [Dictionary<String,Int>] = []
+   //var baitoArray: [Dictionary<String,String>] = []
    
    let saveData = UserDefaults.standard
 
    override func viewDidLoad() {
        super.viewDidLoad()
+    
        tableView.rowHeight = 70
    }
        // Do any additional setup after loading the view.
@@ -24,11 +25,10 @@ class BaitoListTableViewController: UITableViewController {
     
     if let _ = UserDefaults.standard.object(forKey: "BAITO") as? String{
     
-        baitoLabel.text = (UserDefaults.standard.object(forKey: "BAITO") as! String)
+        
     }
-    if let _ = UserDefaults.standard.object(forKey: "MONEY") as? Int{
+    if let _ = UserDefaults.standard.object(forKey: "MONEY") as? String{
     
-        moneyLabel.text = (UserDefaults.standard.object(forKey: "MONEY") as! Int)
     }
    self.tableView.reloadData()
    }
@@ -39,17 +39,21 @@ class BaitoListTableViewController: UITableViewController {
    
 
    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-       return baitoArray.count
+       //return baitoArray.count
+         return 1
    }
    
    
    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! BaitoListTableViewCell
+    
+        cell.baitoLabel.text = UserDefaults.standard.object(forKey: "BAITO") as? String
+        cell.moneyLabel.text = UserDefaults.standard.object(forKey: "MONEY") as? String
        
-       let nowIndexPathDictionary = baitoArray[indexPath.row]
+      // let nowIndexPathDictionary = baitoArray[indexPath.row]
        
-       cell.baitoLabel.text = nowIndexPathDictionary["baito"]
-       cell.moneyLabel.text = nowIndexPathDictionary["money"]
+       //cell.baitoLabel.text = nowIndexPathDictionary["baito"]
+       //cell.moneyLabel.text = nowIndexPathDictionary["money"]
        
        return cell
    }

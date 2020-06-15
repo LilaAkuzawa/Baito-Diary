@@ -12,20 +12,29 @@ class BaitoInputViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var baitoTextField: UITextField!
     @IBOutlet var moneyTextField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+         
+        baitoTextField.delegate = self
+        moneyTextField.delegate = self
+        
+        baitoTextField.keyboardType = .default
+        moneyTextField.keyboardType = UIKeyboardType.decimalPad
+        
+        baitoTextField.text = UserDefaults.standard.object(forKey: "BAITO") as? String
+        moneyTextField.text = UserDefaults.standard.object(forKey: "MONEY") as? String
+        
     }
-     let userDefaults = UserDefaults.standard
+     
+    let userDefaults = UserDefaults.standard
+   
     
        @IBAction func saveData(){
-        
-       
             
         userDefaults.set(baitoTextField.text, forKey:"BAITO")
         userDefaults.set(moneyTextField.text, forKey: "MONEY")
-        
-        userDefaults.synchronize()
             
             let alert = UIAlertController(
                 title: "保存完了",
