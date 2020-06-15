@@ -11,10 +11,32 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var inputButton: UIButton!
+    @IBOutlet weak var registerButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        inputButton.layer.cornerRadius = 10
+        inputButton.layer.shadowRadius = 7
+        inputButton.layer.shadowOpacity = 1
+        inputButton.layer.shadowColor = UIColor.lightGray.cgColor
+        inputButton.layer.shadowOffset = CGSize(width: 2, height: 2 )
+        
+        registerButton.layer.cornerRadius = 15
+        registerButton.layer.shadowRadius = 7
+        registerButton.layer.shadowOpacity = 1
+        registerButton.layer.shadowColor = UIColor.lightGray.cgColor
+        registerButton.layer.shadowOffset = CGSize(width: 2, height: 2 )
+        
+        label1.layer.backgroundColor = UIColor.white.cgColor
+        label1.layer.cornerRadius = 10
+        label1.layer.shadowRadius = 10
+        label1.layer.shadowOpacity = 1
+        label1.layer.shadowColor = UIColor.lightGray.cgColor
+        label1.layer.shadowOffset = CGSize(width: 2,height: 2)
+        
+
     }
     
     @IBAction func input(_ sender: UIButton) {
@@ -30,9 +52,11 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        if let _ = UserDefaults.standard.object(forKey: "SAVING") as? String {
+        if let _ = UserDefaults.standard.object(forKey: "SAVING") as? Int {
             //labelに表示
-            label1.text = (UserDefaults.standard.object(forKey: "SAVING") as! String)
+
+            label1.text = String(UserDefaults.standard.object(forKey: "SAVING") as! Int)
+            
         }else{
             
             let userDefaults = UserDefaults.standard
